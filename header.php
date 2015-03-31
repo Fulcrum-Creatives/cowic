@@ -31,6 +31,26 @@ if (isset($_SERVER['HTTP_USER_AGENT']) && (strpos($_SERVER['HTTP_USER_AGENT'], '
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+	
+	<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Central Ohio Workforce Retargeting code
+URL of the webpage where the tag is expected to be placed: http://orbitinteractive.com
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 03/26/2015
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="http://4348454.fls.doubleclick.net/activityi;src=4348454;type=invmedia;cat=v0xlh51r;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="http://4348454.fls.doubleclick.net/activityi;src=4348454;type=invmedia;cat=v0xlh51r;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+	
+	
+	
 <?php
 $twitter = ( get_field( 'cowic_twitter_link', 'option' ) ? get_field( 'cowic_twitter_link', 'option' ) : '' );
 $facebook = ( get_field( 'cowic_facebook_link', 'option' ) ? get_field( 'cowic_facebook_link', 'option' ) : '' );
